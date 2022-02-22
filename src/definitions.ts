@@ -1,3 +1,7 @@
+import { PluginListenerHandle } from '@capacitor/core';
+
 export interface ButtonsPluginPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  addListener(eventName: 'buttonUpPressed', listenerFunc: () => void): Promise<PluginListenerHandle> & PluginListenerHandle;
+
+  addListener(eventName: 'buttonDownPressed', listenerFunc: () => void): Promise<PluginListenerHandle> & PluginListenerHandle;
 }

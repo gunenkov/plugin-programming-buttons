@@ -1,3 +1,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.gnksoftware.plugins.buttons">
+    <!--<application>
+        <receiver
+            android:name=".ButtonReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.USER_UNLOCKED />
+            </intent-filter>
+        </receiver>
+    </application>-->
 </manifest>
