@@ -15,6 +15,8 @@ npx cap sync
 
 * [`addListener(...)`](#addlistener)
 * [`addListener(...)`](#addlistener)
+* [`addListener(...)`](#addlistener)
+* [`addListener(...)`](#addlistener)
 * [Interfaces](#interfaces)
 
 </docgen-index>
@@ -48,6 +50,38 @@ addListener(eventName: 'buttonDownPressed', listenerFunc: () => void) => Promise
 | ------------------ | -------------------------------- |
 | **`eventName`**    | <code>"buttonDownPressed"</code> |
 | **`listenerFunc`** | <code>() =&gt; void</code>       |
+
+**Returns:** <code>any</code>
+
+--------------------
+
+
+### addListener(...)
+
+```typescript
+addListener(eventName: 'buttonPttPressed', listenerFunc: () => void) => Promise<PluginListenerHandle> & PluginListenerHandle
+```
+
+| Param              | Type                            |
+| ------------------ | ------------------------------- |
+| **`eventName`**    | <code>"buttonPttPressed"</code> |
+| **`listenerFunc`** | <code>() =&gt; void</code>      |
+
+**Returns:** <code>any</code>
+
+--------------------
+
+
+### addListener(...)
+
+```typescript
+addListener(eventName: 'buttonSosPressed', listenerFunc: () => void) => Promise<PluginListenerHandle> & PluginListenerHandle
+```
+
+| Param              | Type                            |
+| ------------------ | ------------------------------- |
+| **`eventName`**    | <code>"buttonSosPressed"</code> |
+| **`listenerFunc`** | <code>() =&gt; void</code>      |
 
 **Returns:** <code>any</code>
 
