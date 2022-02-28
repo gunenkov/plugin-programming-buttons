@@ -13,6 +13,8 @@ npx cap sync
 
 <docgen-index>
 
+* [`setVolumeButtonsMode(...)`](#setvolumebuttonsmode)
+* [`setMaxVolumeForNotifications()`](#setmaxvolumefornotifications)
 * [`addListener(...)`](#addlistener)
 * [`addListener(...)`](#addlistener)
 * [`addListener(...)`](#addlistener)
@@ -23,6 +25,32 @@ npx cap sync
 
 <docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
+
+### setVolumeButtonsMode(...)
+
+```typescript
+setVolumeButtonsMode(options: { changeVolume: boolean; }) => any
+```
+
+| Param         | Type                                    |
+| ------------- | --------------------------------------- |
+| **`options`** | <code>{ changeVolume: boolean; }</code> |
+
+**Returns:** <code>any</code>
+
+--------------------
+
+
+### setMaxVolumeForNotifications()
+
+```typescript
+setMaxVolumeForNotifications() => any
+```
+
+**Returns:** <code>any</code>
+
+--------------------
+
 
 ### addListener(...)
 

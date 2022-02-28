@@ -6,6 +6,32 @@
     "tags": [],
     "methods": [
       {
+        "name": "setVolumeButtonsMode",
+        "signature": "(options: { changeVolume: boolean; }) => any",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ changeVolume: boolean; }"
+          }
+        ],
+        "returns": "any",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "setvolumebuttonsmode"
+      },
+      {
+        "name": "setMaxVolumeForNotifications",
+        "signature": "() => any",
+        "parameters": [],
+        "returns": "any",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "setmaxvolumefornotifications"
+      },
+      {
         "name": "addListener",
         "signature": "(eventName: 'buttonUpPressed', listenerFunc: () => void) => Promise<PluginListenerHandle> & PluginListenerHandle",
         "parameters": [

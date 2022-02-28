@@ -6,6 +6,15 @@ var capacitorButtonsPlugin = (function (exports, core) {
     });
 
     class ButtonsPluginWeb extends core.WebPlugin {
+        setMaxVolumeForNotifications() {
+            console.log("Programming buttons plugin is not implemented for web!");
+            return Promise.resolve(undefined);
+        }
+        setVolumeButtonsMode(options) {
+            console.log(options);
+            console.log("Programming buttons plugin is not implemented for web!");
+            return Promise.resolve(undefined);
+        }
     }
 
     var web = /*#__PURE__*/Object.freeze({
